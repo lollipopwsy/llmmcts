@@ -2,7 +2,8 @@ from openai import OpenAI
 
 # client=OpenAI(api_key="sk-zk22861351550bff9dec8c42da47d91aedb673599196944f",base_url="https://api.zhizengzeng.com/v1")
 # client = OpenAI(api_key = "token-123456",base_url ="http://172.18.129.32:9993/v1")
-client = OpenAI(api_key = "token-123456",base_url ="http://127.0.0.1:8000/v1")
+# client = OpenAI(api_key = "token-123456",base_url ="http://127.0.0.1:8000/v1")
+client = OpenAI(api_key="sk-KpWVukNiRPy2QTYA6fgH3CUwN53Twf", base_url="http://172.18.36.101:7024/v1")
 import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer

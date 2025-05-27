@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/mnt/wsy/test2/llm-mcts/')
+sys.path.append('/mnt/wsy/test3/llm-mcts/')
 
 from mcts.mcts.mcts import MCTSAgent
 from mcts.virtualhome.llm_policy import LLMPolicy
@@ -89,7 +89,7 @@ class mcts_vh_env:
         self.vh_pyenv.pomdp = True
         self.model = None
         # self.env_task_set = pickle.load(open('./vh/dataset/env_task_set_3_simple.pik', 'rb'))
-        self.env_task_set = pickle.load(open('/mnt/wsy/test2/llm-mcts/vh/dataset/env_task_set_50_simple_seen.pik', 'rb'))
+        self.env_task_set = pickle.load(open('/mnt/wsy/test3/llm-mcts/vh/dataset/env_task_set_50_simple_seen.pik', 'rb'))
         self.history = []
         self.init_history = []
         self.cur_state_graph = graph

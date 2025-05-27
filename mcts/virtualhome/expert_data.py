@@ -5,7 +5,7 @@ import os
 import torch
 
 import sys
-sys.path.append('/mnt/wsy/test2/llm-mcts/')
+sys.path.append('/mnt/wsy/test3/llm-mcts/')
 
 
 from vh.learned_policy.data_loader import get_history_action_input_language, parse_language_from_action_script, get_goal_language
